@@ -101,7 +101,7 @@ class TicTacToe
         return value
       end
       }
-      return false
+      return nil
 
   end
 end
