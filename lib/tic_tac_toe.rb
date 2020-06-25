@@ -125,7 +125,8 @@ end
 end
 
 def play
-turn until over?
+until over?
+  turn
 if won?
   puts"Congratulations #{winner}!"
 elsif draw?
