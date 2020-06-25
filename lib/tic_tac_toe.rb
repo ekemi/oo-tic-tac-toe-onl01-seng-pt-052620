@@ -123,4 +123,10 @@ def winner
     @board[win.first]
 end
 end
+
+def play
+turn until over?
+  
+end
+end
 end
