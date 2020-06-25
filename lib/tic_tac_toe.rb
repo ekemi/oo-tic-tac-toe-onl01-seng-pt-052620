@@ -125,7 +125,9 @@ end
 end
 
 def play
-turn until over?
+until over? == true
+  turn
+end
 
 if won?
   puts"Congratulations #{winner}!"
