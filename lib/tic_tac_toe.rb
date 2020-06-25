@@ -119,8 +119,8 @@ return won? || full?
 end
 
 def winner
-  @board.all?{
-    |value| if value == "X"
+  @board.each{
+    |value| if value == "X" 
       return "X"
 
     elsif value =="O"
