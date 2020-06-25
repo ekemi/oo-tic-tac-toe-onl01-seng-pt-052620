@@ -118,8 +118,8 @@ def over?
 return won? || full?
 end
 
-def winner(board)
-  board.each{
+def winner
+  @board.each{
     |value| if value == "X"
       return "X"
 
