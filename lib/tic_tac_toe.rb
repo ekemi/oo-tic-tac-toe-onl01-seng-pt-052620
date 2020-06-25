@@ -120,7 +120,7 @@ end
 
 def winner
   if @board.first == "X"
-    retun "X"
+    return "X"
   elsif @board.first == "O"
     return "O"
   else
