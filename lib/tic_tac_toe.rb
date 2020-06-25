@@ -105,7 +105,7 @@ class TicTacToe
 
 end
 
-def ful?
+def full?
 
   @board.includes?("X") || @board.includes?("O")
 end
