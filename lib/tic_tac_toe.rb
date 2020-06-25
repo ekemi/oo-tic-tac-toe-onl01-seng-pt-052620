@@ -128,7 +128,7 @@ def play
 turn until over?
 if won?
   puts"Congratulation the winner"
-if draw
+elsif draw
   puts"The game ended in a draw"
 
 
