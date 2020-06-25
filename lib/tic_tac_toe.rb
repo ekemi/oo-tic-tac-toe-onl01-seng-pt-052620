@@ -130,7 +130,7 @@ if won?
   puts"Congratulation the winner"
 if draw
   puts"The game ended in a draw"
-end  
+end
 
 end
 end
