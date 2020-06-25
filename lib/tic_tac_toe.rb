@@ -88,17 +88,17 @@ class TicTacToe
     # end
   end
   def won?
-    WIN_COMBINATIONS.each {|value|
-    index_0 = value[0]
-    index_1 = value[1]
-    index_3 = value[3]
+    WIN_COMBINATIONS.each {|win_combo|
+    index_0 = win_combo[0]
+    index_1 = win_combo[1]
+    index_3 = win_combo[3]
     p_1= @board[index_0]
     p_2 = @board[index_1]
-    p_3=@board[index_3]
+    p_3= @board[index_3]
     if p_1 == "X" && p_2 == "X" && p_3 == "X"
-      return value
+      return win_combo
     elsif  p_1 == "O" && p_2 == "O" && p_3 == "O"
-      return value
+      return win_combo
     end
     }
     return false
