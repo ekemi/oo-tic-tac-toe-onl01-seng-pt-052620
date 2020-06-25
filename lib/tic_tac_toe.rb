@@ -119,15 +119,12 @@ return won? || full?
 end
 
 def winner
-  @board.find_all{
-    |value| if value == "X"# value=="O"
-          return "X"
-
-    elsif value == "O"
-      return "O"
-   else
-     return nil
-    end
-  }
+  if @board.first == "X"
+    retun "X"
+  elsif @board.first == "O"
+    return "O"
+  else
+    return nil
+  end    
 end
 end
