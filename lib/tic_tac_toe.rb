@@ -111,7 +111,12 @@ def full?
 end
 
 def draw?
-  return full? && !won?
+ return full? && !won?
 
+end
+def over?
+return won? || full?
+
+end
 end
 end
