@@ -107,6 +107,6 @@ end
 
 def full?
 
-  @board.include?("X") || @board.include?("O")
+  return @board.include?("X") || @board.include?("O")
 end
 end
