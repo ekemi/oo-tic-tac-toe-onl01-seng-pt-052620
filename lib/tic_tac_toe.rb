@@ -123,7 +123,7 @@ def winner
     |value| if value == "X"
       return "X"
 
-    else
+    elsif value =="O"
       return "O"
     end
   }
