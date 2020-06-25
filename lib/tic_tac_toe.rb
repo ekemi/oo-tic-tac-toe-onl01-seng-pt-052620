@@ -122,3 +122,4 @@ def winner
   if win = won?
     @board[win.first]
 end
+end
