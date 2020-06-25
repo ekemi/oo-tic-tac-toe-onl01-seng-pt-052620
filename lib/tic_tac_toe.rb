@@ -116,7 +116,5 @@ def draw?
 end
 def over?
 return won? || full?
-
-end
 end
 end
