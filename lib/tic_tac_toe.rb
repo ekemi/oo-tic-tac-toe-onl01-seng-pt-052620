@@ -104,4 +104,9 @@ class TicTacToe
     return false
 
 end
+
+def ful?
+
+  @board.includes?("X") || @board.includes?("O")
+end
 end
