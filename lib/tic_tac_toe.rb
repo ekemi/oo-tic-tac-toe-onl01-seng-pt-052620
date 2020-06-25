@@ -107,6 +107,6 @@ end
 
 def full?
 
-  return @board.include?("X") || @board.include?("O")
+  @board.each {|value| value.include?("X") ||value.include?("O")}
 end
 end
