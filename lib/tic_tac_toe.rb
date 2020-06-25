@@ -117,4 +117,14 @@ end
 def over?
 return won? || full?
 end
+
+def winner
+  @board.all?{
+    |value| if value == "X"
+      return "X"
+
+    else 
+      return "O"
+    end
+  }
 end
