@@ -111,6 +111,10 @@ def full?
 end
 
 def draw?
-  return !won? || full?
+  if full? && !won?
+    return true
+  else
+    return false
+  end
 end
 end
