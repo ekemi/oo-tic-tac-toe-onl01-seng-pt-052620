@@ -88,7 +88,7 @@ class TicTacToe
     # end
   end
   def won?
-    WIN_COMBINATIONS.each {|win_combo|
+    WIN_COMBINATIONS.each {value|
     index_0 = value[0]
     index_1 = value[1]
     index_3 = value[3]
