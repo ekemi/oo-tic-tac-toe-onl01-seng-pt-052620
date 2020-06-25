@@ -125,6 +125,6 @@ def winner
     return "O"
   else
     return nil
-  end    
+  end
 end
 end
