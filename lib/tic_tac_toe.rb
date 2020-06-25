@@ -119,7 +119,7 @@ return won? || full?
 end
 
 def winner
-  @board.find{
+  @board.find_all{
     |value| if value == "X"# value=="O"
           return "X"
 
