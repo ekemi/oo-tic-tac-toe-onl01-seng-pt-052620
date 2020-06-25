@@ -127,11 +127,9 @@ end
 def play
 turn until over?
 if won?
-  puts"Congratulation #{winner}"
-elsif draw
+  puts"Congratulation #{winner}!"
+elsif draw?
   puts"Cat's Game!"
-
-
 end
 end
 end
