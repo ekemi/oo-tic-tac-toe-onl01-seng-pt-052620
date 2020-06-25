@@ -107,10 +107,6 @@ end
 
 def full?
 
-  @board.each {|value| if value.include?("X") ||value.include?("O")
-  return true
-else
-return false
-end}
+  @board.all? {|value| if value== "X" || value == "O"}
 end
 end
