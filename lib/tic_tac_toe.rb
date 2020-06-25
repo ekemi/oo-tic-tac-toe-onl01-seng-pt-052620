@@ -120,11 +120,11 @@ end
 
 def winner
   @board.each{
-    |value| if value == "X"
+    |value| if value == "X" || value=="O"
       return "X"
 
-    elsif value =="O"
-      return "O"
+    #elsif value =="O"
+      #return "O"
    else
      return nil
     end
