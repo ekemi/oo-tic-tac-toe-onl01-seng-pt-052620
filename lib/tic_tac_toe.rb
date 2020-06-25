@@ -125,6 +125,8 @@ def winner
 
     elsif value =="O"
       return "O"
+   else
+     return nil    
     end
   }
 end
