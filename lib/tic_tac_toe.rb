@@ -119,12 +119,12 @@ return won? || full?
 end
 
 def winner
-  @board.each{
-    |value| if value.include?("X")# value=="O"
+  @board.find{
+    |value| if value == "X"# value=="O"
           return "X"
 
-    elsif value.include?("O")
-      #return "O"
+    elsif value == "O"
+      return "O"
    else
      return nil
     end
