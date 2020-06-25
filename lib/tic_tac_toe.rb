@@ -133,7 +133,6 @@ if won?
 elsif draw?
 
   puts"Cat's Game!"
-  turn
 end
 end
 end
