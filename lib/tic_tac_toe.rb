@@ -112,7 +112,7 @@ end
 
 def draw?
   return full? && !won?
-    
+
   end
 end
 end
