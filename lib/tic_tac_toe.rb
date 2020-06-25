@@ -107,6 +107,6 @@ end
 
 def full?
 
-  @board.all? {|value| if value== "X" || value == "O"}
+  @board.all? {|value| value== "X" || value == "O"}
 end
 end
