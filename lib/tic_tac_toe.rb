@@ -91,13 +91,13 @@ class TicTacToe
     WIN_COMBINATIONS.each {|win_combo|
     index_0 = win_combo[0]
     index_1 = win_combo[1]
-    index_3 = win_combo[3]
-    p_1= @board[index_0]
-    p_2 = @board[index_1]
-    p_3= @board[index_3]
-    if p_1 == "X" && p_2 == "X" && p_3 == "X"
+    index_2 = win_combo[2]
+    p_0= @board[index_0]
+    p_1 = @board[index_1]
+    p_2= @board[index_2]
+    if p_0 == "X" && p_1 == "X" && p_2 == "X"
       return win_combo
-    elsif  p_1 == "O" && p_2 == "O" && p_3 == "O"
+    elsif  p_0 == "O" && p_1 == "O" && p_2 == "O"
       return win_combo
     end
     }
