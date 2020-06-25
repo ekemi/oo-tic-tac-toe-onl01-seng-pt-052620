@@ -131,8 +131,9 @@ end
 if won?
   puts"Congratulations #{winner}!"
 elsif draw?
-  turn
+
   puts"Cat's Game!"
+  turn
 end
 end
 end
