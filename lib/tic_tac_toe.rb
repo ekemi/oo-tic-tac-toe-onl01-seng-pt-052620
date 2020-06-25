@@ -119,12 +119,6 @@ return won? || full?
 end
 
 def winner
-  if @board.first == "X"
-    return "X"
-  elsif @board.first == "O"
-    return "O"
-  else
-    return nil
-  end
-end
+  if win = won?
+    @board[win.first]
 end
