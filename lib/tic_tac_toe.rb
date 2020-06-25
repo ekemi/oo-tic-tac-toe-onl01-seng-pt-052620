@@ -111,14 +111,6 @@ def full?
 end
 
 def draw?
-  if full? #|| won?
-    return true
-
-elsif !won?
-  return false
-
-  else
-    return false
-  end
+  return !won? || full?
 end
 end
